@@ -19,14 +19,44 @@ footer {
 }
 
 .footer-brand-logo {
-  width: 150px;
   margin-bottom: 30px;
+}
+
+.social-section h2 {
+  color: #fff;
+  font-size: 26px;
+  line-height: 30px;
+  margin-bottom: 28px;
+  text-align: justify;
 }
 
 .social-section p {
   color: #585b6f;
   line-height: 30px;
   margin-bottom: 28px;
+  text-align: justify;
+}
+
+.social-link {
+  display: flex;
+  gap: 12px;
+}
+
+.social-link-icon {
+  width: 48px;
+  height: 48px;
+  border-radius: 6px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 24px;
+  margin-bottom: 20px;
+  background-color: #0a165e;
+}
+
+.social-link-icon ion-icon {
+  font-size: 26px;
+  color: #fff;
 }
 
 .quick-link {
@@ -54,13 +84,14 @@ footer {
 
 .service {
   flex: 0 0 auto;
-  width: 22%;
-  margin-left: 30px;
+  width: 27%;
+  margin-left: auto;
 }
 
 .info {
   flex: 0 0 auto;
-  width: 16%
+  width: 18%;
+  margin-left: 26px;
 }
 
 .blue-background-footer {

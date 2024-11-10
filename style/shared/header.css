@@ -22,6 +22,11 @@ header {
   margin-right: 38px;
 }
 
+.brand-logo h2 {
+  color: #0a165e;
+  font-size: 26px;
+}
+
 .nav-bar-link {
   flex: 1;
 }

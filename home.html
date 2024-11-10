@@ -3,7 +3,8 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Website</title>
+    <title>WeCodeThat</title>
+    <link rel="icon" type="image/x-icon" href="/image/favicon.jpg" />
     <link
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
@@ -19,6 +20,7 @@
     <link rel="stylesheet" href="./style/page/home.css" />
     <link rel="stylesheet" href="./style/shared/footer.css" />
     <link rel="stylesheet" href="./style/shared/swiper.css" />
+    <link rel="stylesheet" href="./style/page/contactUs.css" />
   </head>
   <body>
     <header>
@@ -28,7 +30,8 @@
             <div class="nav-bar">
               <div class="brand-logo">
                 <a href="./home.html">
-                  <img src="./image/logo-dark.svg" alt="brand-logo" />
+                  <!-- <img src="./image/logo-dark.svg" alt="brand-logo" /> -->
+                  <h2>WeCodeThat</h2>
                 </a>
               </div>
               <div class="nav-bar-link">
@@ -36,17 +39,16 @@
                   <li>
                     <a href="./home.html">Home</a>
                   </li>
-                  <li>
+                  <!-- <li>
                     <a href="./aboutUs.html">About Us</a>
                   </li>
                   <li>
                     <a href="./contactUs.html">Contact</a>
-                  </li>
+                  </li> -->
                 </ul>
               </div>
               <div class="main-header-icon">
-                <ion-icon name="search"></ion-icon>
-                <a href="#" class="btn primary-btn">Get in Touch</a>
+                <a href="#form-section" class="btn primary-btn">Get in Touch</a>
               </div>
             </div>
           </div>
@@ -58,14 +60,17 @@
         <div class="container grid-container">
           <div class="hero-content">
             <h5>We provide professional IT services</h5>
-            <h1>Delivering tech solutions for your startups</h1>
+            <h1>
+              Expert Custom Software and <br />
+              Full-Stack Solution
+            </h1>
             <p>
               We transform businesses of most major sectors with powerful and
               adaptable digital solutions that satisfy the needs of today.
             </p>
             <div class="hero-cta">
-              <a href="#" class="btn primary-btn">Work With Us</a>
-              <a href="#" class="btn hero-btn">View Services</a>
+              <a href="#form-section" class="btn primary-btn">Work With Us</a>
+              <a href="#service" class="btn hero-btn">View Services</a>
             </div>
           </div>
           <div class="hero-thumb-section">
@@ -83,8 +88,8 @@
                 <img src="./image/icon/icon1.svg" alt="icon" />
               </div>
               <div class="feature-content-box">
-                <h5>Highly Expert Team</h5>
-                <p>We provide the most responsive and functional IT design</p>
+                <h5>Client Centered</h5>
+                <p>Tailored solutions to meet your unique business needs.</p>
               </div>
             </div>
           </div>
@@ -94,8 +99,8 @@
                 <img src="./image/icon/icon2.svg" alt="icon" />
               </div>
               <div class="feature-content-box">
-                <h5>24/7 Customer Service</h5>
-                <p>We provide the most responsive and functional IT design</p>
+                <h5>End-to-End Expertise</h5>
+                <p>Full project lifecycle from design to deployment.</p>
               </div>
             </div>
           </div>
@@ -105,8 +110,8 @@
                 <img src="./image/icon/icon3.svg" alt="icon" />
               </div>
               <div class="feature-content-box">
-                <h5>Competitive Pricing</h5>
-                <p>We provide the most responsive and functional IT design</p>
+                <h5>On-Time Delivery</h5>
+                <p>Efficient work to ensure timely project completion.</p>
               </div>
             </div>
           </div>
@@ -129,24 +134,24 @@
             </div>
           </div>
           <div class="more-about-us-content ml40">
-            <h2>Our awesome services to give you success</h2>
-            <h5>
-              During this time, we&rsquo;ve built a reputation for excellent
-              clients satisfaction as evidenced by our
-            </h5>
+            <h2>Building Scalable Tech for Visionaries</h2>
+            <h5></h5>
             <p>
-              Each demo built with Tuba will look different. You can customize
-              almost anything in the appearance of your website with only a few
-              clicks. Each demo built with Teba will look different.
+              WeCodeThat is your trusted partner for innovative and
+              cost-effective digital solutions. Whether you need a sleek
+              website, a robust web application, or a mobile app, we have the
+              experience and technical expertise to meet your needs. We combine
+              creativity with cutting-edge technologies to craft seamless,
+              responsive websites that deliver outstanding user  experiences.
             </p>
-            <a href="#" class="btn primary-btn">More About Us</a>
+            <!-- <a href="#" class="btn primary-btn">More About Us</a> -->
           </div>
         </div>
       </section>
-      <section class="carousel">
+      <section class="carousel" id="service">
         <div class="carousel-container">
           <div class="carousel-heading">
-            <h2>Our awesome services to give you success</h2>
+            <h2>Tailored Solutions for Your Business Needs</h2>
           </div>
           <div class="card__container swiper">
             <div class="card__content-1">
@@ -155,15 +160,15 @@
                   <div class="carousel-box-icon">
                     <img src="./image/icon/icon1.svg" alt="icon" />
                   </div>
-                  <h5>
-                    Data Tracking <br />
-                    Security
-                  </h5>
-                  <p>Developing a comprehensive IT strategy that aligns.</p>
+                  <h5>Custom Web Development</h5>
+                  <p>
+                    We build responsive, secure websites tailored to your
+                    business, enhancing user experience and performance.
+                  </p>
                   <div class="carousel-box-link">
                     <a hrf="">
                       <div class="carousel-box-link-icon-left"></div>
-                      <span>Learn More</span>
+                      <!-- <span>Learn More</span> -->
                       <div class="carousel-box-link-icon-right"></div>
                     </a>
                   </div>
@@ -172,15 +177,15 @@
                   <div class="carousel-box-icon">
                     <img src="./image/icon/icon1.svg" alt="icon" />
                   </div>
-                  <h5>
-                    Data Tracking <br />
-                    Security
-                  </h5>
-                  <p>Developing a comprehensive IT strategy that aligns.</p>
+                  <h5>Shopify & eCommerce Development</h5>
+                  <p>
+                    Build a high-converting online store with custom eCommerce
+                    solutions
+                  </p>
                   <div class="carousel-box-link">
                     <a hrf="">
                       <div class="carousel-box-link-icon-left"></div>
-                      <span>Learn More</span>
+                      <!-- <span>Learn More</span> -->
                       <div class="carousel-box-link-icon-right"></div>
                     </a>
                   </div>
@@ -189,15 +194,15 @@
                   <div class="carousel-box-icon">
                     <img src="./image/icon/icon1.svg" alt="icon" />
                   </div>
-                  <h5>
-                    Data Tracking <br />
-                    Security
-                  </h5>
-                  <p>Developing a comprehensive IT strategy that aligns.</p>
+                  <h5>Android App Development</h5>
+                  <p>
+                    Develop high-performance, user-friendly Android apps
+                    optimized for seamless experiences across devices.
+                  </p>
                   <div class="carousel-box-link">
                     <a hrf="">
                       <div class="carousel-box-link-icon-left"></div>
-                      <span>Learn More</span>
+                      <!-- <span>Learn More</span> -->
                       <div class="carousel-box-link-icon-right"></div>
                     </a>
                   </div>
@@ -206,15 +211,15 @@
                   <div class="carousel-box-icon">
                     <img src="./image/icon/icon1.svg" alt="icon" />
                   </div>
-                  <h5>
-                    Data Tracking <br />
-                    Security
-                  </h5>
-                  <p>Developing a comprehensive IT strategy that aligns.</p>
+                  <h5>iOS App Development</h5>
+                  <p>
+                    Craft innovative iOS apps with intuitive design and
+                    functionality to meet your business needs.
+                  </p>
                   <div class="carousel-box-link">
                     <a hrf="">
                       <div class="carousel-box-link-icon-left"></div>
-                      <span>Learn More</span>
+                      <!-- <span>Learn More</span> -->
                       <div class="carousel-box-link-icon-right"></div>
                     </a>
                   </div>
@@ -223,32 +228,15 @@
                   <div class="carousel-box-icon">
                     <img src="./image/icon/icon1.svg" alt="icon" />
                   </div>
-                  <h5>
-                    Data Tracking <br />
-                    Security
-                  </h5>
-                  <p>Developing a comprehensive IT strategy that aligns.</p>
+                  <h5>Digital Marketing Services</h5>
+                  <p>
+                    Drive traffic and conversions with targeted SEO, social
+                    media, and PPC campaigns to grow your Brand.
+                  </p>
                   <div class="carousel-box-link">
                     <a hrf="">
                       <div class="carousel-box-link-icon-left"></div>
-                      <span>Learn More</span>
-                      <div class="carousel-box-link-icon-right"></div>
-                    </a>
-                  </div>
-                </div>
-                <div class="carousel-box swiper-slide">
-                  <div class="carousel-box-icon">
-                    <img src="./image/icon/icon1.svg" alt="icon" />
-                  </div>
-                  <h5>
-                    Data Tracking <br />
-                    Security
-                  </h5>
-                  <p>Developing a comprehensive IT strategy that aligns.</p>
-                  <div class="carousel-box-link">
-                    <a hrf="">
-                      <div class="carousel-box-link-icon-left"></div>
-                      <span>Learn More</span>
+                      <!-- <span>Learn More</span> -->
                       <div class="carousel-box-link-icon-right"></div>
                     </a>
                   </div>
@@ -275,20 +263,18 @@
       <section class="large-padding-tb4">
         <div class="container grid-container">
           <div class="business-grow mr40">
-            <h2>Increasing business success with technology</h2>
-            <p>
-              Each demo built with Teba will look different. You can customize
-              almost anything in the appearance of your website with only a few
-              clicks. Each demo built with Teba will look different.
-            </p>
+            <h2>Top Reasons to Choose WeCodeThat</h2>
+
             <div class="extra-mt">
               <div class="progress-item">
                 <div class="progress-bar">
                   <div class="progress-title-holder">
-                    <div class="progress-title">IT Solution & Management</div>
+                    <div class="progress-title">
+                      Expert Developers and Designers
+                    </div>
                     <div class="progress-number-wrapper">
                       <div class="progress-number-mark">
-                        <div class="percentage">86%</div>
+                        <div class="percentage">100%</div>
                       </div>
                     </div>
                   </div>
@@ -300,10 +286,10 @@
               <div class="progress-item">
                 <div class="progress-bar">
                   <div class="progress-title-holder">
-                    <div class="progress-title">Website & App Development</div>
+                    <div class="progress-title">Tailored Solutions</div>
                     <div class="progress-number-wrapper">
                       <div class="progress-number-mark">
-                        <div class="percentage">72%</div>
+                        <div class="percentage">100%</div>
                       </div>
                     </div>
                   </div>
@@ -315,10 +301,12 @@
               <div class="progress-item">
                 <div class="progress-bar">
                   <div class="progress-title-holder">
-                    <div class="progress-title">SEO & Digital Marketing</div>
+                    <div class="progress-title">
+                      Affordable and Transparent Pricing
+                    </div>
                     <div class="progress-number-wrapper">
                       <div class="progress-number-mark">
-                        <div class="percentage">83%</div>
+                        <div class="percentage">100%</div>
                       </div>
                     </div>
                   </div>
@@ -345,7 +333,7 @@
           </div>
         </div>
       </section>
-      <section class="recent-project">
+      <!-- <section class="recent-project">
         <div class="container">
           <div class="recent-project-heading">
             <h2>Explore our recent projects</h2>
@@ -549,7 +537,7 @@
               </div>
             </div>
 
-            <!-- Navigation buttons -->
+           
             <div class="swiper-button-next">
               <div class="swiper-btn">
                 <ion-icon name="chevron-forward-outline"></ion-icon>
@@ -560,7 +548,7 @@
               <ion-icon name="chevron-back-outline"></ion-icon>
             </div>
 
-            <!-- Pagination -->
+            
             <div class="swiper-pagination swiper-pagination-2"></div>
           </div>
         </div>
@@ -647,75 +635,143 @@
             </div>
           </div>
         </div>
-      </section>
+      </section> -->
       <section class="work-together-section">
         <div class="container">
           <div class="work-cta-wrap">
             <div class="work-cta-content">
-              <h2>Let's work together</h2>
+              <h2>Get Started on Your Custom Website or App Today</h2>
               <p>
-                Each demo built with Teba will look different. You can customize
-                anything appearance of your website with only a few clicks
+                Whether you're looking to launch a website, mobile app, or
+                online store, <br />
+                WeCodeThat is here to help you succeed.
               </p>
             </div>
             <div class="work-cta-btn">
-              <a href="#" class="btn primary-btn">View All Post</a>
+              <a href="#form-section" class="btn primary-btn"
+                >Let's Start a Project</a
+              >
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="form-section">
+        <div class="form-section">
+          <div class="container">
+            <div class="contact">
+              <div class="contact-details">
+                <div class="contact-content">
+                  <h2>Contact Us</h2>
+                  <p>
+                    Ready to take your business to the next level with a custom
+                    website or app? Reach out to us today, and let's start
+                    building your digital future. Whether you have a question or
+                    are ready to start a project, we're here to help!
+                  </p>
+                  <div class="contact-info-section">
+                    <!-- <div class="contact-info">
+                      <div class="contact-info-icon">
+                        <ion-icon name="location"></ion-icon>
+                      </div>
+                      <h5>Address</h5>
+                      <p>
+                        1791 Yorkshire Circle Kitty
+                        <br />
+                        Hawk, NC 279499
+                      </p>
+                    </div> -->
+                    <div class="contact-info">
+                      <div class="contact-info-icon">
+                        <ion-icon name="mail"></ion-icon>
+                      </div>
+                      <h5>Contact</h5>
+                      <p>
+                        <a>support@wecodethat.com</a>
+                        <br />
+                        <a>+91 9094321163</a>
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="form">
+                <div class="form-box">
+                  <h3>Fill out the form below</h3>
+
+                  <form action="">
+                    <div class="main-field main-field-flex">
+                      <input type="text" placeholder="Your name" />
+                      <input type="text" placeholder="Phone number" />
+                    </div>
+                    <div class="main-field">
+                      <input type="email" placeholder="Email address" />
+                    </div>
+                    <div class="main-field">
+                      <textarea placeholder="Write your message"></textarea>
+                    </div>
+                    <div class="form-btn-box">
+                      <a href="" class="btn form-btn">Send Message</a>
+                    </div>
+                  </form>
+                </div>
+              </div>
             </div>
           </div>
         </div>
       </section>
     </main>
-    <footer class="footer-section">
+    <footer class="footer-section blue-background-footer">
       <div class="container">
         <div class="footer-container">
           <div class="social-section">
             <div class="footer-brand-logo">
               <a href="./home.html">
-                <img src="./image/logo-dark.svg" alt="brand-logo" />
+                <!-- <img src="./image/logo-white.svg" alt="brand-logo" /> -->
+                <h2>WeCodeThat</h2>
               </a>
             </div>
             <p>
-              Each demo built with Teba will look different. You can customize
-              almost anything in the appearance of your website with only a few
+              WeCodeThat is a full-stack web and mobile app development company
+              dedicated to delivering high-quality, custom solutions that meet
+              the needs of businesses in every industry.
             </p>
+            <div class="social-link">
+              <a
+                href="https://www.linkedin.com/company/wecodethatglobal/"
+                target="_blank"
+              >
+                <div class="social-link-icon">
+                  <ion-icon name="logo-linkedin"></ion-icon>
+                </div>
+              </a>
+              <a
+                href="https://www.facebook.com/wecodethatglobal"
+                target="_blank"
+              >
+                <div class="social-link-icon">
+                  <ion-icon name="logo-facebook"></ion-icon>
+                </div>
+              </a>
+            </div>
           </div>
-          <div class="quick-link link">
-            <h5>Quick Link</h5>
-            <ul>
-              <li>
-                <a href="">About Us</a>
-              </li>
-              <li>
-                <a href="">Our Team</a>
-              </li>
-              <li>
-                <a href="">Pricing</a>
-              </li>
-              <li>
-                <a href="">Blogs</a>
-              </li>
-              <li>
-                <a href="">Contact Us</a>
-              </li>
-            </ul>
-          </div>
+
           <div class="service link">
             <h5>Service</h5>
             <ul>
               <li>
-                <a href="">UI/UX Design</a>
+                <a href="">Custom Web Development </a>
               </li>
               <li>
-                <a href="">App Development</a>
+                <a href="">Shopify & eCommerce Development </a>
               </li>
               <li>
-                <a href="">Digital Marketing</a>
+                <a href="">Android App Development </a>
               </li>
               <li>
-                <a href="">Web Development</a>
+                <a href="">iOS App Development </a>
               </li>
               <li>
-                <a href="">Cyber Security</a>
+                <a href="">Digital Marketing Services </a>
               </li>
             </ul>
           </div>
@@ -723,16 +779,7 @@
             <h5>Information</h5>
             <ul>
               <li>
-                <a href="">Working Process</a>
-              </li>
-              <li>
-                <a href="">Privacy Policy</a>
-              </li>
-              <li>
-                <a href="">Terms & Conditions</a>
-              </li>
-              <li>
-                <a href="">Faqs</a>
+                <a href="./privacyPolicy.html">Privacy Policy</a>
               </li>
             </ul>
           </div>
